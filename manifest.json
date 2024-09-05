@@ -1,0 +1,13 @@
+{
+    "name": "Aquario",
+    "start_url": "/aquario",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "imagens/aquario.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
