@@ -5,4 +5,4 @@ Cálculo do volume de um aquário.
 Emmanuel L. Nogueira
 
 ## APP - Aquário
-![qrcode]()
+![qrcode](https://github.com/emmanuel-lacerd4/aquario/blob/main/img/qrcode_aquario.png)
