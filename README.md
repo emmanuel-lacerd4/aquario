@@ -1,3 +1,5 @@
+![GitHub License](https://img.shields.io/github/license/emmanuel-lacerd4/javascript?style=for-the-badge)
+
 # Aquário
 Cálculo do volume de um aquário.
 
