@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json"> <!-- Arquivo de manifesto (instalçao do APP) -->
-    <title>APP Aquário</title>
+    <title>APP - Aquário</title>
 
 </head>
 
@@ -15,18 +15,18 @@
     <div class="conteiner">
         <h1>Cálculo do volume de um aquário</h1>
         <form name="frmAquario">
-            <img src="imagens/volume.png" alt="aquario com peixes" id="status">
-            <p><input type="text" name="txtComprimento" placeholder="Comprimento" required></p>
-            <p><input type="text" name="txtLargura" placeholder="Largura" required></p>
-            <p><input type="text" name="txtAltura" placeholder="Altura" required></p>
+            <img src="img/volume.png" alt="aquario com peixes" id="status">
+            <p><input type="number" step="any"  name="inputComprimento" placeholder="Comprimento" required></p>
+            <p><input type="number" step="any" name="inputLargura" placeholder="Largura" required></p>
+            <p><input type="number" step="any" name="inputAltura" placeholder="Altura" required></p>
             <input type="button" value="Calcular" onclick="calcular()">
             <input type="reset" value="Limpar">
-            <p><input type="text" name="txtLitros" placeholder="Resultado" disabled></p>
+            <p><input type="number" step="any" name="inputLitros" placeholder="Litros" disabled></p>
         </form>
     </div>
     <script src="app.js"></script>
 
-
+    <!-- <input type="number" name="numberLitros" id="Litros" placeholder="Litros" required> -->
 </body>
 
 </html>

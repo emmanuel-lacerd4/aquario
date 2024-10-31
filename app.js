@@ -2,14 +2,13 @@ let comprimento, largura, altura, litros
 
 function calcular() {
     // Entrada
-    comprimento = Number(frmAquario.txtComprimento.value)
-    largura = Number(frmAquario.txtLargura.value)
-    altura = Number(frmAquario.txtAltura.value)
+    comprimento = Number(frmAquario.inputComprimento.value)
+    largura = Number(frmAquario.inputLargura.value)
+    altura = Number(frmAquario.inputAltura.value)
 
     // Processamento
     litros = (comprimento * largura * altura) / 1000
 
     // Saída
-    frmAquario.txtLitros.value = litros.toFixed(1)
-
+    frmAquario.inputLitros.value = litros.toFixed(1)
 }
